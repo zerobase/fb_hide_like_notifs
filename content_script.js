@@ -1,7 +1,14 @@
+var REGEXP_LANG_TABLE = {
+  en: /^[^:]* likes? your \w+:/g,
+  ja: /^[^:]*について「いいね！」と(言|い)っています:/g
+};
+
+var lang = $('html').attr('lang') || 'en';
+var regexp = REGEXP_LANG_TABLE[lang];
+
 setInterval(function () {
   $('li._33c, li.pvs.notification').each(function () {
-    var inner_text = $(this).text();
-    if ( $(this).text().match(/likes?/g) ) {
+    if ( $(this).text().match(regexp) ) {
       $(this).hide();
     }
   });
