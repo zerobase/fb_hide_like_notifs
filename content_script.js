@@ -1,5 +1,5 @@
 var REGEXP_LANG_TABLE = {
-  en: /^[^:]* likes? your \w+[:.]/g,
+  en: /^[^:]* likes? your \w+( on \w+)?[:.]/g,
   ja: /^[^:]*について「いいね！」と(言|い)っています[:。]/g
 };
 
