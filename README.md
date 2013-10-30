@@ -1,20 +1,19 @@
 Hide Likes on Facebook Notifications (Google Chrome Extension)
 ==============================================================
 
-[Chrome Web Store - Hide Likes on Facebook Notifications](https://chrome.google.com/webstore/detail/hide-like-notifications-o/kbfakkkdllpodegeoggpfcmjabodhpca)
+[Chrome Web Store - Hide Likes on Facebook Notifications](https://chrome.google.com/webstore/detail/hide-likes-on-facebook-no/kbfakkkdllpodegeoggpfcmjabodhpca)
 
 Are you bothered by "someone likes your post" notifications on Facebook?
 
-Hide Like Notifications on Facebook is for you!
+Hide Likes on Facebook Notifications is for you!
 
 You won't miss more important notifications such as "someone commented on your status".
 
 This extension hides only "like" notifications. Other types of notifications stay visible.
 
-## Available Languages
+## Privacy
 
-- English
-- Japanese (日本語)
+This extension never collect your personal information.
 
 ## Version 1.7
 
