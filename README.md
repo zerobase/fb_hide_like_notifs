@@ -15,3 +15,15 @@ This extension hides only "like" notifications. Other types of notifications sta
 
 - English
 - Japanese (日本語)
+
+## Version 1.7
+
+Complete internationalization with a language independent logic.
+
+## Version 1.6
+
+Fix bug: "(likes your post) on Tumblr." type notifications.
+
+## Version 1.5
+
+Fix bug: sentence end variations (en: [:.], ja: [:。]).

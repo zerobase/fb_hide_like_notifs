@@ -1,14 +1,15 @@
-var REGEXP_LANG_TABLE = {
-  en: /^[^:]* likes? your \w+( on \w+)?[:.]/g,
-  ja: /^[^:]*について「いいね！」と(言|い)っています[:。]/g
-};
+setInterval(hide_like_notifs, 100);
 
-setInterval(function () {
-  $('li._33c').each(function () {
-    var lang = $('html').attr('lang') || 'en';
-    var regexp = REGEXP_LANG_TABLE[lang];
-    if ( $(this).text().match(regexp) ) {
-      $(this).hide();
-    }
+function hide_like_notifs() {
+  var notifs = $('#fbnotifsJewel li._33c');
+  notifs.each(function(){
+    hide_notif_if_like( $(this) );
   });
-}, 500);
+}
+
+function hide_notif_if_like(notif) {
+  var notif_meta = $.parseJSON( notif.attr('data-gt') );
+  if ( notif_meta['notif_type'] == 'like' ) {
+    notif.hide();
+  }
+}
