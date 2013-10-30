@@ -1,7 +1,7 @@
 setInterval(hide_like_notifs, 100);
 
 function hide_like_notifs() {
-  var notifs = $('#fbnotifsJewel li._33c');
+  var notifs = $('#fbNotificationsJewel li._33c');
   notifs.each(function(){
     hide_notif_if_like( $(this) );
   });

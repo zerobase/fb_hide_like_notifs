@@ -15,6 +15,10 @@ This extension hides only "like" notifications. Other types of notifications sta
 
 This extension never collect your personal information.
 
+## Version 1.8
+
+Fixed a critical bug. Version 1.7 didn't work.
+
 ## Version 1.7
 
 Complete internationalization with a language independent logic.
