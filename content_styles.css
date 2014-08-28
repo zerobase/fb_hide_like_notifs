@@ -1,0 +1,7 @@
+._33c[data-gt*='"notif_type":"like"'],
+._33c[data-gt*='"notif_type":"like_tagged"'],
+._33c[data-gt*='"notif_type":"page_new_likes"'],
+._33c[data-gt*='"notif_type":"open_graph_action_like"']
+{
+	display:none !important;
+}

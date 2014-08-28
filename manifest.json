@@ -3,7 +3,7 @@
 
   "name": "Hide Likes on Facebook Notifications",
   "description": "This extension hides 'like' notificatoins on the notification jewel.",
-  "version": "1.8",
+  "version": "1.9",
   
   "icons": {
     "48": "icon48.png",
@@ -13,7 +13,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*", "http://www.facebook.com/*"],
-      "js": ["jquery.min.js", "content_script.js"]
+      "css": ["content_styles.css"],
+      "js": ["content_script.js"]
     }
   ]
 }
