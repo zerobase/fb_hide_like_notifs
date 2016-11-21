@@ -1,6 +1,11 @@
 Changes
 =======
 
+## Version 1.10
+
+Now this extention hides not only "likes" but also "reactions."
+Sorry to keep you waiting since February of this year. Enjoy!
+
 ## Version 1.9
 
 Removed jQuery. Thanks to ngyikp: [Unnecessary Javascript could be done with CSS · Issue #2 · zerobase/fb_hide_like_notifs](https://github.com/zerobase/fb_hide_like_notifs/issues/2)
