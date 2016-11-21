@@ -9,8 +9,8 @@ Hide Likes on Facebook Notifications is for you!
 
 You won't miss more important notifications such as "someone commented on your status".
 
-This extension hides only "like" notifications. Other types of notifications stay visible.
+This extension hides only "like" and "react" notifications. Other types of notifications stay visible.
 
 ## Privacy
 
-This extension never collect your personal information.
+This extension never collects your personal information.
