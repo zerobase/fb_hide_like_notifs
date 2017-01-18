@@ -3,7 +3,8 @@
 ._33c[data-gt*='"notif_type":"feedback_reaction_generic"'],
 ._33c[data-gt*='"notif_type":"feedback_reaction_generic_tagged"'],
 ._33c[data-gt*='"notif_type":"page_new_likes"'],
-._33c[data-gt*='"notif_type":"open_graph_action_like"']
+._33c[data-gt*='"notif_type":"open_graph_action_like"'],
+._33c[data-gt*='"notif_type":"page_fan"']
 {
 	display:none !important;
 }
