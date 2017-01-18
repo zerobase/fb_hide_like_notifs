@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Hide Likes on Facebook Notifications",
-  "description": "This extension hides 'like' notificatoins on the notification jewel.",
-  "version": "1.10",
+  "name": "Hide 'Like' Notifications",
+  "description": "This extension hides 'like' notificatoins on Facebook.",
+  "version": "1.11",
 
   "icons": {
     "48": "icon48.png",

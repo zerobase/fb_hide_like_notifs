@@ -1,8 +1,14 @@
 Changes
 =======
 
+## Version 1.11
+
+Jan 18, 2017
+Renamed due to the trade mark issue.
+
 ## Version 1.10
 
+Nov 21, 2016
 Now this extention hides not only "likes" but also "reactions."
 Sorry to keep you waiting since February of this year. Enjoy!
 
