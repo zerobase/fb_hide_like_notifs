@@ -4,7 +4,8 @@ Changes
 ## Version 1.11
 
 Jan 18, 2017
-Renamed due to the trade mark issue.
+- It's renamed due to the trade mark issue.
+- Now you can toggle the filter by clicking the icon.
 
 ## Version 1.10
 
