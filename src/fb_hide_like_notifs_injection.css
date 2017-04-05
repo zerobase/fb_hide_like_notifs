@@ -1,10 +1,11 @@
-._33c[data-gt*='"notif_type":"like"'],
-._33c[data-gt*='"notif_type":"like_tagged"'],
-._33c[data-gt*='"notif_type":"feedback_reaction_generic"'],
-._33c[data-gt*='"notif_type":"feedback_reaction_generic_tagged"'],
-._33c[data-gt*='"notif_type":"page_new_likes"'],
-._33c[data-gt*='"notif_type":"open_graph_action_like"'],
-._33c[data-gt*='"notif_type":"page_fan"']
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"like"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"like_tagged"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"feedback_reaction_generic"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"feedback_reaction_generic_tagged"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"page_new_likes"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"page_user_activity"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"open_graph_action_like"'],
+ul:not([data-gt*='"ref":"notif_page"']) ._33c[data-gt*='"notif_type":"page_fan"']
 {
 	display:none !important;
 }

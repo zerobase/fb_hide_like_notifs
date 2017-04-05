@@ -1,6 +1,12 @@
 Changes
 =======
 
+## Version 1.12
+
+Apr 5, 2017
+- You won't be required 'history permission' anymore.
+- You can access all kinds of notifications (including hidden likes) on Your Notifications. https://www.facebook.com/notifications
+
 ## Version 1.11
 
 Jan 18, 2017
