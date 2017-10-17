@@ -3,7 +3,7 @@
 
   "name": "Hide 'Like' Notifications",
   "description": "This extension hides 'like' notifications on Facebook.",
-  "version": "1.13",
+  "version": "1.14",
 
   "icons": {
     "48": "icon_on_48.png",

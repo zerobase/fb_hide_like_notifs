@@ -1,6 +1,11 @@
 Changes
 =======
 
+## Version 1.14
+
+Oct 17, 2017
+- Hide floating beeps on the left bottom corner.
+
 ## Version 1.13
 
 Oct 17, 2017
