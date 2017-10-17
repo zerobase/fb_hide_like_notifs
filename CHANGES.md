@@ -1,6 +1,11 @@
 Changes
 =======
 
+## Version 1.13
+
+Oct 17, 2017
+- To 'Mark read' automatically. It means now the extension not only visually hide like-notifs but also mark them read actually.
+
 ## Version 1.12
 
 Apr 5, 2017
