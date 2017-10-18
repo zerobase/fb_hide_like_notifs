@@ -1,50 +1,34 @@
 Changes
 =======
 
-## Version 1.14
-
-Oct 17, 2017
+Version 1.14 (Oct 17, 2017):
 - Hide floating beeps on the left bottom corner.
 
-## Version 1.13
-
-Oct 17, 2017
+Version 1.13 (Oct 17, 2017):
 - To 'Mark read' automatically. It means now the extension not only visually hide like-notifs but also mark them read actually.
 
-## Version 1.12
-
-Apr 5, 2017
+Version 1.12 (Apr 5, 2017):
 - You won't be required 'history permission' anymore.
 - You can access all kinds of notifications (including hidden likes) on Your Notifications. https://www.facebook.com/notifications
 
-## Version 1.11
-
-Jan 18, 2017
+Version 1.11 (Jan 18, 2017):
 - It's renamed due to the trade mark issue.
 - Now you can toggle the filter by clicking the icon.
 
-## Version 1.10
+Version 1.10 (Nov 21, 2016):
+- Now this extention hides not only "likes" but also "reactions." Sorry to keep you waiting since February of this year. Enjoy!
 
-Nov 21, 2016
-Now this extention hides not only "likes" but also "reactions."
-Sorry to keep you waiting since February of this year. Enjoy!
+Version 1.9 (Aug 8, 2014):
+- Removed jQuery. Thanks to ngyikp: [Unnecessary Javascript could be done with CSS · Issue #2 · zerobase/fb_hide_like_notifs](https://github.com/zerobase/fb_hide_like_notifs/issues/2)
 
-## Version 1.9
+Version 1.8 (Oct 31, 2013):
+- Fixed a critical bug. Version 1.7 didn't work.
 
-Removed jQuery. Thanks to ngyikp: [Unnecessary Javascript could be done with CSS · Issue #2 · zerobase/fb_hide_like_notifs](https://github.com/zerobase/fb_hide_like_notifs/issues/2)
+Version 1.7 (Oct 31, 2013):
+- Complete internationalization with a language independent logic.
 
-## Version 1.8
+Version 1.6 (Oct 30, 2013):
+- Fix bug: "(likes your post) on Tumblr." type notifications.
 
-Fixed a critical bug. Version 1.7 didn't work.
-
-## Version 1.7
-
-Complete internationalization with a language independent logic.
-
-## Version 1.6
-
-Fix bug: "(likes your post) on Tumblr." type notifications.
-
-## Version 1.5
-
-Fix bug: sentence end variations (en: [:.], ja: [:。]).
+Version 1.5 (Oct 29, 2013):
+- Fix bug: sentence end variations (en: [:.], ja: [:。]).
