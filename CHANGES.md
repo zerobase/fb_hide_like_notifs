@@ -1,7 +1,8 @@
 Changes
 =======
 
-Version 1.15.0 (Apr 19, 2017):
+Version 1.15.2 (Apr 19, 2017):
+- Bugfix #10
 - Add 'page_post_reaction'
 - Install sass
 - Add "How To Contribute" to README

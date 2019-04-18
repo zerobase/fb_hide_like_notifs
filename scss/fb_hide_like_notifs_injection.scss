@@ -8,6 +8,12 @@ ul:not([data-gt*='"ref":"notif_page"']) {
 	& > li[data-gt*='"notif_type":"page_post_reaction"'],
 	& > li[data-gt*='"notif_type":"open_graph_action_like"'],
 	& > li[data-gt*='"notif_type":"page_fan"'],
+	& > li[data-gt*='"notif_type":"page_fan_growth_drop"'],
+	& > li[data-gt*='"notif_type":"event_weekly_digest"'],
+	& > li[data-gt*='"notif_type":"event_joined_nearby"'],
+	& > li[data-gt*='"notif_type":"aymt_upsell_tip"'],
+	& > li[data-gt*='"notif_type":"page_insights_weekly_digest"'],
+	& > li[data-gt*='"notif_type":"page_profile_blurb"'],
 	& > li[data-gt*='"subtype":"highlights_friend_liker_commenter"'] {
 		display:none !important;
 	}
