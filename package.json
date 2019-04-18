@@ -1,6 +1,6 @@
 {
   "name": "fb_hide_like_notifs",
-  "version": "1.15.0",
+  "version": "1.15.1",
   "description": "Hide 'Like' Notifications (Google Chrome Extension)",
   "main": "index.js",
   "dependencies": {},

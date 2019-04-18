@@ -3,7 +3,7 @@
 
   "name": "Hide 'Like' Notifications",
   "description": "Make Facebook less distractive.",
-  "version": "1.15.0",
+  "version": "1.15.1",
 
   "icons": {
     "48": "icon_on_48.png",
