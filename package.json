@@ -1,0 +1,27 @@
+{
+  "name": "fb_hide_like_notifs",
+  "version": "1.15.0",
+  "description": "Hide 'Like' Notifications (Google Chrome Extension)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/fb_hide_like_notifs_injection.scss extension/fb_hide_like_notifs_injection.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerobase/fb_hide_like_notifs.git"
+  },
+  "keywords": [],
+  "author": "Hide Ishi <hidetoi@gmail.com> (https://github.com/zerobase)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerobase/fb_hide_like_notifs/issues"
+  },
+  "homepage": "https://github.com/zerobase/fb_hide_like_notifs#readme"
+}

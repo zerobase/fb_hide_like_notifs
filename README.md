@@ -1,5 +1,4 @@
-Hide 'Like' Notifications (Google Chrome Extension)
-==============================================================
+# Hide 'Like' Notifications (Google Chrome Extension)
 
 [Chrome Web Store - Hide 'Like' Notifications](https://chrome.google.com/webstore/detail/hide-likes-on-facebook-no/kbfakkkdllpodegeoggpfcmjabodhpca)
 
