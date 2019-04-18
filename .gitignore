@@ -1,2 +1,4 @@
 node_modules/
 extension/fb_hide_like_notifs_injection.css
+extension.crx
+extension.pem
