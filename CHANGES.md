@@ -1,6 +1,11 @@
 Changes
 =======
 
+Version 1.15.0 (Apr 19, 2017):
+- Add 'page_post_reaction'
+- Install sass
+- Add "How To Contribute" to README
+
 Version 1.14 (Oct 17, 2017):
 - Hide floating beeps on the left bottom corner.
 
