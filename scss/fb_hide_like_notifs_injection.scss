@@ -1,4 +1,4 @@
-ul[data-gt*='"ref":"notif_jewel"'] {
+:not(ul[data-gt*='"ref":"notif_page"']) {
 	li[data-gt*='"notif_type":"like"'],
 	li[data-gt*='"notif_type":"like_tagged"'],
 	li[data-gt*='"notif_type":"feedback_reaction_generic"'],
