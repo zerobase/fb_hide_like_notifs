@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.18.11"
+    "node-sass": "^4.13.1",
+    "nodemon": "^1.19.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
