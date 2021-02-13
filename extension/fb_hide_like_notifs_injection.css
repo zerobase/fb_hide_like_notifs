@@ -1,17 +1,6 @@
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"like"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"like_tagged"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"feedback_reaction_generic"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"feedback_reaction_generic_tagged"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_new_likes"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_user_activity"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_post_reaction"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"open_graph_action_like"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_fan"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_fan_growth_drop"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"event_weekly_digest"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"event_joined_nearby"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"aymt_upsell_tip"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_insights_weekly_digest"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"notif_type":"page_profile_blurb"'],
-ul:not([data-gt*='"ref":"notif_page"']) > li[data-gt*='"subtype":"highlights_friend_liker_commenter"'] {
-  display: none !important; }
+.fb_hide_like_notifs_announcement {
+  margin: 60px 0 0 0;
+  font-size: 32px;
+  background-color: yellow; }
+  .fb_hide_like_notifs_announcement a {
+    color: black; }

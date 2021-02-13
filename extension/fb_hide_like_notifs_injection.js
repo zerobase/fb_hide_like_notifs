@@ -1,30 +1,9 @@
-function markUninterestedNotifsRead () {
-  var selectorString = `
-    li[data-gt*='"notif_type":"like"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"like_tagged"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"feedback_reaction_generic"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"feedback_reaction_generic_tagged"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_new_likes"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_user_activity"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_post_reaction"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"open_graph_action_like"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_fan"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_fan_growth_drop"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"event_weekly_digest"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"event_joined_nearby"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"aymt_upsell_tip"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_insights_weekly_digest"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"notif_type":"page_profile_blurb"'] ._55m9._55ma._5c9q,
-    li[data-gt*='"subtype":"highlights_friend_liker_commenter"'] ._55m9._55ma._5c9q
-    `;
-
-  var fnSendClickEvent = function (elm) {
-    var evt = document.createEvent("MouseEvent")
-    evt.initUIEvent("click", true, true)
-    elm.dispatchEvent(evt)
-  }
-
-  document.querySelectorAll(selectorString).forEach(fnSendClickEvent);
-}
-
-setInterval(markUninterestedNotifsRead, 2000);
+const anchor = document.createElement('a');
+anchor.appendChild(document.createTextNode("Important Notice from Hide 'Like' Notifications"));
+anchor.href = 'https://chrome.google.com/webstore/detail/hide-like-notifications/kbfakkkdllpodegeoggpfcmjabodhpca';
+anchor.target = '_blank';
+const announcement = document.createElement('p');
+announcement.className = 'fb_hide_like_notifs_announcement';
+announcement.appendChild(anchor);
+const body = document.getElementsByTagName("body")[0];
+body.insertBefore(announcement, body.firstChild);
